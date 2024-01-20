@@ -22,75 +22,68 @@
 	<!-- Theme Styles CSS File -->
 	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 
-  <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+	<style>
+		body {
+			font-family: 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
-        .phone-card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
-        }
+		.phone-card-container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			padding: 20px;
+		}
 
-        .phone-card {
-            width: 180px;
-            margin: 10px;
-            text-align: center;
-            border: 1px solid #f2b705;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-radius: 8px;
-            padding: 15px;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            /* background-color: transparent; */
-            /* background-color: #f2b705; */
-            background-color: black;
-        }
-        .phone-card:hover {
-            transform: scale(1.05);
-        }
+		.phone-card {
+			width: 180px;
+			margin: 10px;
+			text-align: center;
+			border: 1px solid #f2b705;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			border-radius: 8px;
+			padding: 15px;
+			cursor: pointer;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			background-color: black;
+		}
 
-        .phone-card:hover h3 {
-            color: #f2b705; /* Color on hover */
-        }
+		.phone-card:hover {
+			transform: scale(1.05);
+		}
 
-        .phone-card img {
-            max-width: 70px;
-            /* height: 180px; */
-            height: auto;
-            border-radius: 5px;
-        }
+		.phone-card:hover h3 {
+			color: #f2b705;
+			/* Color on hover */
+		}
 
-        .phone-card h3 {
-            margin-top: 10px;
-            font-size: 16px;
-            /* color: #f2b705; */
-            /* color: black; */
-            /* color: #2a2a2a; */
-        }
+		.phone-card img {
+			height: auto;
+			border-radius: 5px;
+		}
 
-        @media (max-width: 768px) {
-            .phone-card {
-                width: 100%;
-            }
-        }
-    </style>
-	<script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-</script>
-	<script> 
-		$(function(){
-		  $(".header").load("header.html"); 
-		//   $("#footer").load("footer.html"); 
+		.phone-card h3 {
+			margin-top: 10px;
+			font-size: 16px;
+			white-space: nowrap;
+		}
+
+		@media (max-width: 768px) {
+			.phone-card {
+				width: 100%;
+			}
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+		</script>
+	<script>
+		$(function () {
+			$(".header").load("header.html");
 		});
 	</script>
 
@@ -98,336 +91,212 @@
 
 <body class="loaded enable-rfs">
 	<div class="header"></div>
-		<!------------- Top Heading Start /------------->
-		<div class="top-heading dark-grey-bg spacer">
-			<div class="color-overlay"></div>
+	<!------------- Top Heading Start /------------->
+	<div class="top-heading dark-grey-bg spacer">
+		<div class="color-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="title-section-text">
+						<div class="heading">
+							<ul class="list-inline text-center">
+								<li class="list-inline-item">
+									<hr class="align-right">
+								</li>
+								<li class="list-inline-item">
+									<h1>Select Your Phone Model</h1>
+								</li>
+								<li class="list-inline-item">
+									<hr>
+								</li>
+							</ul>
+
+						</div>
+
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+								<li class="breadcrumb-item active"><a href="#"> Previous</a></li>
+							</ol>
+						</nav><!-- Breadcrumbs /-->
+					</div>
+				</div><!-- Top Columns /-->
+			</div>
+		</div>
+
+	</div>
+	<!--top-heading End-->
+	<!------------- Top Heading End 3234301000003345/------------->
+
+	<!------------- News Starts Here /---------------->
+
+	<div class="our-news spacer grey-bg clearfix">
+
+		<div class="single-post-page blog-post-page grey-bg">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<div class="title-section-text">
-							<div class="heading">
-								<ul class="list-inline text-center">
-									<li class="list-inline-item">
-										<hr class="align-right">
+
+
+
+					<!--Right Container-->
+
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div class="widget_area side-bar border-btm widget-categories">
+							<div class="phone-card-container oppo-phone-container"></div>
+
+
+						</div><!-- Widget Content /-->
+					</div><!-- columns /-->
+
+
+				</div><!-- row /-->
+			</div><!-- Container /-->
+		</div>
+		<!-- Single Post /-->
+
+		<div class="module100"></div>
+	</div>
+	<!------------- News Ends Here /------------------>
+
+	<!------------- Location Starts Here /---------------->
+	<div class="locations grey-bg">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12 col-md-6 col-lg-4 p-0">
+
+					<div class="locations-text one hover-wrap">
+						<h4>New York Station</h4>
+						<p><i class="fas fa-map-marked-alt"></i>22nd Avenue, Plane Street NY, US</p>
+						<p><i class="fas fa-mobile-alt"></i>0800-123-345</p>
+						<p><i class="fas fa-envelope"></i><a href="#">newyork@carbuddy.com</a></p>
+					</div>
+
+				</div><!-- Clumns /-->
+
+				<div class="col-sm-12 col-md-6 col-lg-4 p-0">
+
+					<div class="locations-text two hover-wrap">
+						<h4>Texas Station</h4>
+						<p><i class="fas fa-map-marked-alt"></i>22nd Avenue, Plane Street NY, US</p>
+						<p><i class="fas fa-mobile-alt"></i>0800-123-345</p>
+						<p><i class="fas fa-envelope"></i><a href="#">texas@carbuddy.com</a></p>
+					</div>
+
+				</div><!-- Clumns /-->
+
+				<div class="col-sm-12 col-md-12 col-lg-4 p-0">
+
+					<div class="locations-text three hover-wrap">
+						<h4>Birmingham Station</h4>
+						<p><i class="fas fa-map-marked-alt"></i>22nd Avenue, Plane Street NY, US</p>
+						<p><i class="fas fa-mobile-alt"></i>0800-123-345</p>
+						<p><i class="fas fa-envelope"></i><a href="#">birmingham@carbuddy.com</a></p>
+					</div>
+
+				</div><!-- Clumns /-->
+
+			</div><!-- Row /-->
+		</div><!-- Container /-->
+	</div>
+
+	<!------------- Location Ends Here /---------------->
+
+
+	<div class="footer">
+		<div class="footer-top spacer">
+			<div class="container">
+				<div class="row ">
+
+					<div class="col-lg-5 col-md-7 col-sm-12">
+						<div class="footer-box Courses">
+							<ul class="links  col-padding-y">
+								<li>
+									<h6>Popular Services</h6>
+								</li>
+								<li><a href="#">Simple Mobile Service</a></li>
+								<li><a href="#">General Mobile Service</a></li>
+								<li><a href="#">Compound Polish</a></li>
+								<li><a href="#">Interior Cleaning</a></li>
+								<li><a href="#">Exterior & Wax Polish</a></li>
+							</ul>
+							<ul class="links  col-padding-y">
+								<li>
+									<h6>Quick Menu</h6>
+								</li>
+								<li><a href="about-us.html">About us</a></li>
+								<li><a href="our-team.html">Our Team</a></li>
+								<li><a href="services.html">Our Services</a></li>
+								<li><a href="#">Stations Gallery</a></li>
+								<li><a href="testimonial.html">Testimonials</a></li>
+							</ul>
+						</div><!-- Footer Box /-->
+					</div><!-- Columns /-->
+
+					<div class="col-lg-3 col-md-5 col-sm-12 col-padding-y">
+						<div class="footer-box Privacy">
+							<ul class="links">
+								<li>
+									<h6>Privacy & Links</h6>
+								</li>
+								<li><a href="#">Frequent Questions</a></li>
+								<li><a href="#">Privacy Politcy</a></li>
+								<li><a href="#">Terms & Condition</a></li>
+								<li><a href="#">Coupons & Promotions</a></li>
+							</ul>
+						</div><!-- Footer Box /-->
+					</div><!-- Columns /-->
+
+					<div class="col-lg-4 col-md-6 col-sm-12 col-padding-y">
+						<div class="footer-box follow-us">
+							<h6>Locate Us</h6>
+							<div class="social-icons">
+								<ul class="menu">
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+									<li><a href="#"><i class="fab fa-behance"></i></a></li>
+
+								</ul>
+							</div>
+							<div class="subscribe-us">
+								<h6>Subscribe Us</h6>
+								<ul class="menu">
+									<li>
+										<input type="email" class="form-control" id="exampleInputEmail1"
+											placeholder="E-mail address">
 									</li>
-									<li class="list-inline-item">
-										<h1>Select Your Phone Model</h1>
-									</li>
-									<li class="list-inline-item">
-										<hr>
+									<li>
+										<button type="submit" class="btn btn-primary"><i
+												class="fas fa-chevron-right"></i></button>
 									</li>
 								</ul>
-
 							</div>
-
-							<nav aria-label="breadcrumb">
-								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-									<li class="breadcrumb-item active"><a href="#"> Previous</a></li>
-								</ol>
-							</nav><!-- Breadcrumbs /-->
-						</div>
-					</div><!-- Top Columns /-->
-				</div>
-			</div>
-
-		</div>
-		<!--top-heading End-->
-		<!------------- Top Heading End 3234301000003345/------------->
-
-		<!------------- News Starts Here /---------------->
-
-		<div class="our-news spacer grey-bg clearfix">
-
-			<div class="single-post-page blog-post-page grey-bg">
-				<div class="container">
-					<div class="row">
-
-						
-
-						<!--Right Container-->
-
-						<div class="col-sm-12 col-md-12 col-lg-12">
-							<div class="widget_area side-bar border-btm widget-categories">
-                  <div class="phone-card-container">
-                   
-    <a class="phone-card" href="iphone15Plus.html">
-        <img src="assets/iphones/IPhone15.png" alt="iPhone Model 4">
-        <h3>iPhone 15 Plus</h3>
-    </a>
-    <a class="phone-card" href="iphone15.html">
-        <img src="assets/iphones/IPhone15.png" alt="iPhone Model 5">
-        <h3>iPhone 15</h3>
-    </a>
-    
-     <a class="phone-card" href="iphone14ProMax.html">
-        <img src="assets/iphones/IPhone14_pro.png" alt="iPhone Model 1">
-        <h3>iPhone 14 pro Max</h3>
-    </a>
-    <a class="phone-card" href="iphone14Pro.html">
-        <img src="assets/iphones/IPhone14_pro.png" alt="iPhone Model 1">
-        <h3>iPhone 14 pro</h3>
-    </a>
-    <a class="phone-card" href="iphone14Plus.html">
-        <img src="assets/iphones/IPhone14.png" alt="iPhone Model 2">
-        <h3>iPhone 14 Plus</h3>
-    </a>
-    <a class="phone-card" href="iphone14.html">
-        <img src="assets/iphones/IPhone14.png" alt="iPhone Model 2">
-        <h3>iPhone 14</h3>
-    </a>
-    <a class="phone-card" href="iphone13ProMax.html">
-        <img src="assets/iphones/IPhone13.png" alt="iPhone Model 3">
-        <h3>iPhone 13 Pro Max</h3>
-    </a>
-    <a class="phone-card" href="iphone13Pro.html">
-        <img src="assets/iphones/IPhone13.png" alt="iPhone Model 4">
-        <h3>iPhone 13 Pro</h3>
-    </a>
-    <a class="phone-card" href="iphone13.html">
-        <img src="assets/iphones/IPhone13.png" alt="iPhone Model 5">
-        <h3>iPhone 13</h3>
-    </a>
-    <!-- Add more cards as needed -->
-     <a class="phone-card" href="iphone13Mini.html">
-        <img src="assets/iphones/IPhone13.png" alt="iPhone Model 1">
-        <h3>iPhone 13 Mini</h3>
-    </a>
-    <a class="phone-card" href="iphoneSE.html">
-        <img src="assets/iphones/IPhoneSE_2020.png" alt="iPhone Model 2">
-        <h3>iPhone SE (2022)</h3>
-    </a>
-    <a class="phone-card" href="iphone12ProMax.html">
-        <img src="assets/iphones/IPhone12.png" alt="iPhone Model 3">
-        <h3>iPhone 12 Pro Max</h3>
-    </a>
-    <a class="phone-card" href="iphone12Pro.html">
-        <img src="assets/iphones/IPhone12.png" alt="iPhone Model 4">
-        <h3>iPhone 12 Pro</h3>
-    </a>
-    <a class="phone-card" href="iphone12.html">
-        <img src="assets/iphones/IPhone12.png" alt="iPhone Model 5">
-        <h3>iPhone 12</h3>
-    </a>
-     <a class="phone-card" href="iphone12Mini.html">
-        <img src="assets/iphones/IPhone12.png" alt="iPhone Model 1">
-        <h3>iPhone 12 Mini</h3>
-    </a>
-    <a class="phone-card" href="iphone11ProMax.html">
-        <img src="assets/iphones/IPhone11.png" alt="iPhone Model 2">
-        <h3>iPhone 11 Pro Max</h3>
-    </a>
-    <a class="phone-card" href="iphone11Pro.html">
-        <img src="assets/iphones/IPhone11.png" alt="iPhone Model 3">
-        <h3>iPhone 11 Pro</h3>
-    </a>
-    <a class="phone-card" href="iphone11.html">
-        <img src="assets/iphones/IPhone11.png" alt="iPhone Model 4">
-        <h3>iPhone 11</h3>
-    </a>
-    <a class="phone-card" href="iphoneXSMax.html">
-        <img src="assets/iphones/IPhoneX.png" alt="iPhone Model 5">
-        <h3>iPhone XS Max</h3>
-    </a>
-     <a class="phone-card" href="iphoneXS.html">
-        <img src="assets/iphones/IPhoneX.png" alt="iPhone Model 1">
-        <h3>iPhone XS</h3>
-    </a>
-    <a class="phone-card" href="iphoneXR.html">
-        <img src="assets/iphones/IPhoneX.png" alt="iPhone Model 2">
-        <h3>iPhone XR</h3>
-    </a>
-    <a class="phone-card" href="iphoneX.html">
-        <img src="assets/iphones/IPhoneX.png" alt="iPhone Model 3">
-        <h3>iPhone X</h3>
-    </a>
-    <a class="phone-card" href="iphone8Plus.html">
-        <img src="assets/iphones/iphone8.png" alt="iPhone Model 4">
-        <h3>iPhone 8 Plus</h3>
-    </a>
-    <a class="phone-card" href="iphone8.html">
-        <img src="assets/iphones/iphone8.png" alt="iPhone Model 5">
-        <h3>iPhone 8</h3>
-    </a>
-     <a class="phone-card" href="iphone7Plus.html">
-        <img src="assets/iphones/iphone7.png" alt="iPhone Model 1">
-        <h3>iPhone 7 Plus</h3>
-    </a>
-    <a class="phone-card" href="iphone7.html">
-        <img src="assets/iphones/iphone7.png" alt="iPhone Model 2">
-        <h3>iPhone 7</h3>
-    </a>
-    <a class="phone-card" href="iphone6SPlus">
-        <img src="assets/iphones/IPhone6_plus.png" alt="iPhone Model 3">
-        <h3>iPhone 6S Plus</h3>
-    </a>
-    <a class="phone-card" href="iphone6S.html">
-        <img src="assets/iphones/IPhone6_plus.png" alt="iPhone Model 4">
-        <h3>iPhone 6S</h3>
-    </a>
-    <a class="phone-card" href="iphone6Plus.html">
-        <img src="assets/iphones/IPhone6_plus.png" alt="iPhone Model 5">
-        <h3>iPhone 6 Plus</h3>
-    </a>
-     <a class="phone-card" href="iphone6.html">
-        <img src="assets/iphones/IPhone6_plus.png" alt="iPhone Model 1">
-        <h3>iPhone 6</h3>
-    </a>    
-</div>
-							
-
-							</div><!-- Widget Content /-->
-						</div><!-- columns /-->
-
-
-					</div><!-- row /-->
-				</div><!-- Container /-->
-			</div>
-			<!-- Single Post /-->
-
-			<div class="module100"></div>
-		</div>
-		<!------------- News Ends Here /------------------>
-
-		<!------------- Location Starts Here /---------------->
-		<div class="locations grey-bg">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-sm-12 col-md-6 col-lg-4 p-0">
-
-						<div class="locations-text one hover-wrap">
-							<h4>New York Station</h4>
-							<p><i class="fas fa-map-marked-alt"></i>22nd Avenue, Plane Street NY, US</p>
-							<p><i class="fas fa-mobile-alt"></i>0800-123-345</p>
-							<p><i class="fas fa-envelope"></i><a href="#">newyork@carbuddy.com</a></p>
-						</div>
-
-					</div><!-- Clumns /-->
-
-					<div class="col-sm-12 col-md-6 col-lg-4 p-0">
-
-						<div class="locations-text two hover-wrap">
-							<h4>Texas Station</h4>
-							<p><i class="fas fa-map-marked-alt"></i>22nd Avenue, Plane Street NY, US</p>
-							<p><i class="fas fa-mobile-alt"></i>0800-123-345</p>
-							<p><i class="fas fa-envelope"></i><a href="#">texas@carbuddy.com</a></p>
-						</div>
-
-					</div><!-- Clumns /-->
-
-					<div class="col-sm-12 col-md-12 col-lg-4 p-0">
-
-						<div class="locations-text three hover-wrap">
-							<h4>Birmingham Station</h4>
-							<p><i class="fas fa-map-marked-alt"></i>22nd Avenue, Plane Street NY, US</p>
-							<p><i class="fas fa-mobile-alt"></i>0800-123-345</p>
-							<p><i class="fas fa-envelope"></i><a href="#">birmingham@carbuddy.com</a></p>
-						</div>
-
-					</div><!-- Clumns /-->
+						</div><!-- Footer Box /-->
+					</div><!-- Columns /-->
 
 				</div><!-- Row /-->
 			</div><!-- Container /-->
-		</div>
-
-		<!------------- Location Ends Here /---------------->
-
-
-		<div class="footer">
-			<div class="footer-top spacer">
-				<div class="container">
-					<div class="row ">
-
-						<div class="col-lg-5 col-md-7 col-sm-12">
-							<div class="footer-box Courses">
-								<ul class="links  col-padding-y">
-									<li>
-										<h6>Popular Services</h6>
-									</li>
-									<li><a href="#">Simple Mobile Service</a></li>
-									<li><a href="#">General Mobile Service</a></li>
-									<li><a href="#">Compound Polish</a></li>
-									<li><a href="#">Interior Cleaning</a></li>
-									<li><a href="#">Exterior & Wax Polish</a></li>
-								</ul>
-								<ul class="links  col-padding-y">
-									<li>
-										<h6>Quick Menu</h6>
-									</li>
-									<li><a href="about-us.html">About us</a></li>
-									<li><a href="our-team.html">Our Team</a></li>
-									<li><a href="services.html">Our Services</a></li>
-									<li><a href="#">Stations Gallery</a></li>
-									<li><a href="testimonial.html">Testimonials</a></li>
-								</ul>
-							</div><!-- Footer Box /-->
-						</div><!-- Columns /-->
-
-						<div class="col-lg-3 col-md-5 col-sm-12 col-padding-y">
-							<div class="footer-box Privacy">
-								<ul class="links">
-									<li>
-										<h6>Privacy & Links</h6>
-									</li>
-									<li><a href="#">Frequent Questions</a></li>
-									<li><a href="#">Privacy Politcy</a></li>
-									<li><a href="#">Terms & Condition</a></li>
-									<li><a href="#">Coupons & Promotions</a></li>
-								</ul>
-							</div><!-- Footer Box /-->
-						</div><!-- Columns /-->
-
-						<div class="col-lg-4 col-md-6 col-sm-12 col-padding-y">
-							<div class="footer-box follow-us">
-								<h6>Locate Us</h6>
-								<div class="social-icons">
-									<ul class="menu">
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-										<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-
-									</ul>
-								</div>
-								<div class="subscribe-us">
-									<h6>Subscribe Us</h6>
-									<ul class="menu">
-										<li>
-											<input type="email" class="form-control" id="exampleInputEmail1"
-												placeholder="E-mail address">
-										</li>
-										<li>
-											<button type="submit" class="btn btn-primary"><i
-													class="fas fa-chevron-right"></i></button>
-										</li>
-									</ul>
-								</div>
-							</div><!-- Footer Box /-->
-						</div><!-- Columns /-->
-
-					</div><!-- Row /-->
-				</div><!-- Container /-->
-			</div><!-- Footer Bottom /-->
+		</div><!-- Footer Bottom /-->
 
 
 
-			<div class="footer-Copyright">
-				<div class="container">
-					<div class="row">
+		<div class="footer-Copyright">
+			<div class="container">
+				<div class="row">
 
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="copyrightinfo">© 2022 <a href="https://www.webfulcreations.com/"
-									target="_blank">Webful Creations</a>. All Rights Reserved.</div>
-						</div>
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="copyrightinfo">© 2022 <a href="https://www.webfulcreations.com/"
+								target="_blank">Webful Creations</a>. All Rights Reserved.</div>
+					</div>
 
-					</div><!-- Row /-->
-				</div><!-- Container /-->
-			</div><!-- Footer Bottom /-->
+				</div><!-- Row /-->
+			</div><!-- Container /-->
+		</div><!-- Footer Bottom /-->
 
-		</div>
-		<!------------ Footer Ends Here /----------->
+	</div>
+	<!------------ Footer Ends Here /----------->
 
 
 
@@ -461,8 +330,9 @@
 	<!-- Webful JS -->
 	<script src="assets/js/template.js" type="text/javascript"></script>
 
-  <!-- Include your JavaScript file -->
-<script src="assets/js/details.js"></script>
+	<!-- Include your JavaScript file -->
+	<script src="assets/js/data.js"></script>
+	<script src="assets/js/phones.js"></script>
 
 </body>
 
