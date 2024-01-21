@@ -1,3 +1,4 @@
+const iphone_div = document.querySelector(".iphone-phone-container");
 const samsung_div = document.querySelector(".samsung-phone-container");
 const xiaomi_div = document.querySelector(".xiaomi-phone-container");
 const honor_div = document.querySelector(".honor-phone-container");
@@ -26,3 +27,4 @@ xiaomi_div && renderPhoneList(phones.xiaomi, xiaomi_div);
 honor_div && renderPhoneList(phones.honor, honor_div);
 google_div && renderPhoneList(phones.google, google_div);
 oppo_div && renderPhoneList(phones.oppo, oppo_div);
+iphone_div && renderPhoneList(phones.iphone, iphone_div);

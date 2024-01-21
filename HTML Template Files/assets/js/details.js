@@ -121,7 +121,9 @@ const createList = (key, val) => {
 
 // Use phoneName to render details
 if (phoneName) {
-  if (phoneName.toLowerCase().includes("galaxy")) {
+  if (phoneName.toLowerCase().includes("iphone")) {
+    renderDetails(phoneName, phones.iphone[phoneName]);
+  } else if (phoneName.toLowerCase().includes("galaxy")) {
     renderDetails(phoneName, phones.samsung[phoneName]);
   } else if (phoneName.includes("MI")) {
     renderDetails(phoneName, phones.xiaomi[phoneName]);
@@ -129,7 +131,7 @@ if (phoneName) {
     renderDetails(phoneName, phones.oppo[phoneName]);
   } else if (phoneName.toLowerCase().includes("pixel")) {
     renderDetails(phoneName, phones.google[phoneName]);
-  } else if (phoneName.toLowerCase().includes("honor")) {
+  } else {
     renderDetails(phoneName, phones.honor[phoneName]);
   }
 }
