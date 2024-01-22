@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var headerContent = `
+  const headerContent = `
     <!DOCTYPE html>
     <html lang="en">
     
