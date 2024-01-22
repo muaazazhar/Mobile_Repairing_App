@@ -58,16 +58,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="container">
                     <div class="row">
     
-                        <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
                             <div class="left-side">
                                 <ul class="menu">
-                                    <li><i class="fas fa-map-marked-alt"></i>6th Avenue, Field NY, 54000 USA</li>
-                                    <li><i class="fas fa-envelope"></i><a href="#">broxton@support.com</a></li>
+                                    <li><i class="fas fa-map-marked-alt"></i>82 Boulevard Victor Hugo 44200 Nantes France</li>
+                                    <li><i class="fas fa-envelope"></i><a href="#">smartphonecity.nantes@gmail.com</a></li>
                                 </ul>
                             </div><!-- Left Side /-->
                         </div><!-- Columns /-->
     
-                        <div class="col-sm-12 col-md-12 col-lg-6 clearfix">
+                        <div class="col-sm-12 col-md-12 col-lg-5 clearfix">
                             <div class="right-side float-end">
                                 <ul class="menu">
                                     <li><a href="#">Media & News</a></li>
