@@ -178,8 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
                                     </li>
                                     <li class="list-inline-item"><a href="#"><i class="fas fa-cart-plus"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt"></i> <span>06
-                                                123 111 23</span> </a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fas fa-mobile-alt"></i> <span>02 53 97 50 39</span> </a></li>
                                     </li>
                                 </ul>
                             </div>
